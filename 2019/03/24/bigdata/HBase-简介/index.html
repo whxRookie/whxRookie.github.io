@@ -190,10 +190,6 @@
                             
                                 <a class="fl github" target="_blank" href="https://github.com/whxRookie" title="github">github</a>
                             
-                                <a class="fl weibo" target="_blank" href="https://github.com/whxRookie" title="weibo">weibo</a>
-                            
-                                <a class="fl rss" target="_blank" href="https://github.com/whxRookie" title="rss">rss</a>
-                            
                         </ul>
                     </nav>
                 </section>
@@ -271,10 +267,6 @@
                 <div class="social">
                     
                         <a class="github" target="_blank" href="https://github.com/whxRookie" title="github">github</a>
-                    
-                        <a class="weibo" target="_blank" href="https://github.com/whxRookie" title="weibo">weibo</a>
-                    
-                        <a class="rss" target="_blank" href="https://github.com/whxRookie" title="rss">rss</a>
                     
                 </div>
             </nav>
@@ -464,16 +456,21 @@
 
 
     
-        <section class="changyan" id="comments">
-  <!--<div id="uyan_frame"></div>-->
-  <div id="SOHUCS"></div>
-  <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
-  <script type="text/javascript">
-    window.changyan.api.config({
-      appid: 'xxxx',
-      conf: 'xxxxxxxxx'
-    });
-  </script>
+        <section id="comments">
+<link rel="stylesheet" href="/css/gitment.min.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'HBase-简介', // 可选。默认为 location.href
+  owner: 'whx',
+  repo: 'https://whxrookie.github.io',
+  oauth: {
+    client_id: '5082c2955cf39fc45c2f',
+    client_secret: '5b4036787d6f1cb68d51dc2d944b9b9f882869a2',
+  },
+})
+gitment.render('comments')
+</script>
 </section>
     
 
