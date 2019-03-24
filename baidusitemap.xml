@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/whxRookie/2019/03/24/About/</loc>
+    <lastmod>2019-03-24</lastmod>
+  </url>  <url>
     <loc>https://github.com/whxRookie/2019/03/24/bigdata/HBase-%E7%AE%80%E4%BB%8B/</loc>
-    <lastmod>2019-03-24</lastmod>
-  </url>  <url>
-    <loc>https://github.com/whxRookie/2019/03/24/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2019-03-24</lastmod>
-  </url>  <url>
-    <loc>https://github.com/whxRookie/2019/03/24/hello-world/</loc>
     <lastmod>2019-03-24</lastmod>
   </url>
 </urlset>

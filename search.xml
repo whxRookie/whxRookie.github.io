@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>测试文件</title>
-      <link href="/2019/03/24/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2019/03/24/%E6%B5%8B%E8%AF%95/</url>
-      
-        <content type="html"><![CDATA[<p><strong> 测试文件：</strong> <excerpt in index | 首页摘要><br>测试<br><a id="more"></a></excerpt></p><the rest of contents | 余下全文><p>Concise<br>A beautiful and simple theme for hexo. It is based on Light.</p><p>Install<br>Execute the following command and modify theme in _config.yml to concise.</p><p>git clone <a href="https://github.com/HmyBmny/hexo-theme-concise.git">https://github.com/HmyBmny/hexo-theme-concise.git</a> themes/concise<br>Update<br>Execute the following command to update Concise.</p><p>cd themes/concise<br>git pull origin master<br>Config<br>Default config:</p><p>menu:<br>  About: /about<br>  Archives: /archives<br>  RSS: /atom.xml</p><p>widgets:</p><ul><li>search</li><li>recent_posts</li><li>category</li><li>tagcloud</li></ul><p>excerpt_link: Read More ›</p><p>twitter:<br>  username:<br>  show_replies: false<br>  tweet_count: 5</p><p>addthis:<br>  enable: true<br>  pubid:<br>  facebook: true<br>  twitter: true<br>  google: true<br>  pinterest: true</p><p>google_analytics:</p></the>]]></content>
-      
-      
-      <categories>
-          
-          <category> java </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>HBase-简介</title>
       <link href="/2019/03/24/bigdata/HBase-%E7%AE%80%E4%BB%8B/"/>
       <url>/2019/03/24/bigdata/HBase-%E7%AE%80%E4%BB%8B/</url>
@@ -54,13 +29,25 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2019/03/24/hello-world/"/>
-      <url>/2019/03/24/hello-world/</url>
+      <title>About</title>
+      <link href="/2019/03/24/About/"/>
+      <url>/2019/03/24/About/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p><strong> About：</strong> <excerpt in index | 首页摘要><br>个人笔记博客，记录下生活、工作中的点滴。<br><a id="more"></a></excerpt></p><the rest of contents | 余下全文><p>先立下flag，后期再逐步更新。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">1、java</span><br><span class="line">2、goland</span><br><span class="line">3、微服务组件</span><br><span class="line">API网关</span><br><span class="line">配置中心</span><br><span class="line">注册中心</span><br><span class="line">通讯组件</span><br><span class="line">分布式事物</span><br><span class="line">4、大数据组件</span><br><span class="line">HDFS</span><br><span class="line">HBase</span><br><span class="line">Storm</span><br><span class="line">Spark</span><br><span class="line">5、AI-技术调研</span><br><span class="line">5、杂记</span><br></pre></td></tr></table></figure></the>]]></content>
       
       
+      <categories>
+          
+          <category> about </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> about </tag>
+            
+        </tags>
       
     </entry>
     
